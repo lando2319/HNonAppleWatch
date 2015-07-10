@@ -10,13 +10,21 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="HNHome" customModule="HNonAppleWatch_WatchKit_Extension">
                     <items>
-                        <label width="135" height="44" alignment="left" text="Hacker News" textAlignment="center" id="5Wo-9t-vaS"/>
+                        <label width="135" height="25" alignment="left" text="Hacker News" textAlignment="center" id="5Wo-9t-vaS">
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                        </label>
                         <table alignment="left" id="fcV-Js-6cr">
                             <items>
                                 <tableRow identifier="HNTableRowController" id="W0r-E5-zRo" customClass="HNTableRowController" customModule="HNonAppleWatch_WatchKit_Extension">
-                                    <group key="rootItem" width="1" alignment="left" id="PHO-Dq-Vai">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="PHO-Dq-Vai">
                                         <items>
-                                            <label alignment="left" text="Label" id="Ikg-cC-Zeg"/>
+                                            <label width="133" height="76" alignment="left" text="Algolia (YC W14) Is Looking for a Senior Ruby on Rails Engineer – SF or Paris IT " textAlignment="left" numberOfLines="5" id="Ikg-cC-Zeg">
+                                                <fontDescription key="font" type="system" weight="light" pointSize="12"/>
+                                            </label>
+                                            <label width="133" height="16" alignment="left" text="- via bloomberg.com" id="o74-jn-fNu">
+                                                <color key="textColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" type="system" pointSize="10"/>
+                                            </label>
                                         </items>
                                     </group>
                                 </tableRow>
@@ -28,7 +36,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="220" y="341"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">

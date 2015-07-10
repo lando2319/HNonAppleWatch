@@ -9,6 +9,6 @@
 import Foundation
 import WatchKit
 
-class HNTableController: WKInterfaceTable {
+class HNTableRowController: NSObject {
     
 }

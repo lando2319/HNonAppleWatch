@@ -12,11 +12,23 @@ import Foundation
 
 class HNHome: WKInterfaceController {
 
+    @IBOutlet weak var HNTable: WKInterfaceTable!
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
-        // Configure interface objects here.
+        // this is where we load the table...
+        self.HNTable.setNumberOfRows(3, withRowType: "HNTableRowController")
+        
     }
+    
+//    func loadHNFeed() {
+//        for index in 1...4 {
+//            let row = HNTable.rowControllerAtIndex(index) as! NSObject
+//            
+//        }
+//    }
+    
 
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user

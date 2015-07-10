@@ -13,12 +13,19 @@
                         <label width="135" height="44" alignment="left" text="Hacker News" textAlignment="center" id="5Wo-9t-vaS"/>
                         <table alignment="left" id="fcV-Js-6cr">
                             <items>
-                                <tableRow id="W0r-E5-zRo">
-                                    <group key="rootItem" width="1" alignment="left" id="PHO-Dq-Vai"/>
+                                <tableRow id="W0r-E5-zRo" customClass="HNTableRowController" customModule="HNonAppleWatch_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="PHO-Dq-Vai">
+                                        <items>
+                                            <label alignment="left" text="Label" id="Ikg-cC-Zeg"/>
+                                        </items>
+                                    </group>
                                 </tableRow>
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="HNTable" destination="fcV-Js-6cr" id="c5N-a7-Fl4"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>

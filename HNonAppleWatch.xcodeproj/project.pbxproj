@@ -20,6 +20,7 @@
 		CCB95F0E1B4FB27A009E08D3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB95F0C1B4FB27A009E08D3 /* Interface.storyboard */; };
 		CCB95F101B4FB27A009E08D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB95F0F1B4FB27A009E08D3 /* Images.xcassets */; };
 		CCB95F131B4FB27A009E08D3 /* HNonAppleWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CCB95EF81B4FB27A009E08D3 /* HNonAppleWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CCB95F1C1B4FB879009E08D3 /* HNTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB95F1B1B4FB879009E08D3 /* HNTableController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		CCB95F0B1B4FB27A009E08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCB95F0D1B4FB27A009E08D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		CCB95F0F1B4FB27A009E08D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCB95F1B1B4FB879009E08D3 /* HNTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNTableController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				CCB95EFF1B4FB27A009E08D3 /* NotificationController.swift */,
 				CCB95F011B4FB27A009E08D3 /* Images.xcassets */,
 				CCB95EFA1B4FB27A009E08D3 /* Supporting Files */,
+				CCB95F1B1B4FB879009E08D3 /* HNTableController.swift */,
 			);
 			path = "HNonAppleWatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB95F1C1B4FB879009E08D3 /* HNTableController.swift in Sources */,
 				CCB95F001B4FB27A009E08D3 /* NotificationController.swift in Sources */,
 				CCB95EFE1B4FB27A009E08D3 /* HNHome.swift in Sources */,
 			);

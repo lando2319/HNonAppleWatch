@@ -11,6 +11,13 @@
                 <controller id="AgC-eL-Hgc" customClass="HNHome" customModule="HNonAppleWatch_WatchKit_Extension">
                     <items>
                         <label width="135" height="44" alignment="left" text="Hacker News" textAlignment="center" id="5Wo-9t-vaS"/>
+                        <table alignment="left" id="fcV-Js-6cr">
+                            <items>
+                                <tableRow id="W0r-E5-zRo">
+                                    <group key="rootItem" width="1" alignment="left" id="PHO-Dq-Vai"/>
+                                </tableRow>
+                            </items>
+                        </table>
                     </items>
                 </controller>
             </objects>

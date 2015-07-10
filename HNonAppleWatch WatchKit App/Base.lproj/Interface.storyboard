@@ -13,7 +13,7 @@
                         <label width="135" height="44" alignment="left" text="Hacker News" textAlignment="center" id="5Wo-9t-vaS"/>
                         <table alignment="left" id="fcV-Js-6cr">
                             <items>
-                                <tableRow id="W0r-E5-zRo" customClass="HNTableRowController" customModule="HNonAppleWatch_WatchKit_Extension">
+                                <tableRow identifier="HNTableRowController" id="W0r-E5-zRo" customClass="HNTableRowController" customModule="HNonAppleWatch_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="PHO-Dq-Vai">
                                         <items>
                                             <label alignment="left" text="Label" id="Ikg-cC-Zeg"/>
